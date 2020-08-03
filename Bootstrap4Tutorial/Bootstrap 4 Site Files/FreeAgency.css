@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    padding-top: 4rem;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+
+/* Navigation */
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem !important;
+}
+
+.navbar-nav li {
+    padding-right: 1.2rem;
+}
+  
+.nav-link {
+    font-size: 1.5rem !important;
+}
+
+.highlight-blue {
+    font-family: 'Permanent Marker', sans-serif;
+    color: #2b74ff;
+}
+
+.highlight-red {
+    font-family: 'Permanent Marker', sans-serif;
+    color: #e20000;
+}
+
+.highlight-white {
+    font-family: 'Permanent Marker', sans-serif;
+    color: whitesmoke;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+/* Main Section */
+
+/* Chat Section */
+
+.chat-box {
+    /* Use Javascript to set the same size as player card */
+    height: 68vh;
+    padding-bottom: 2rem;
+    overflow-y: scroll;
+}
+
+.chat-message {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 5rem;
+}
+
+.chat-message-send {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+}
+
+.chat-message-footer {
+    height: 3.5rem;
+}
+
+.chat-message-identifier {
+    font-size: large;
+}
+
+.message-section {
+    padding-top: 1rem;
+}
+
+.message-button {
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+/* Bid Section */
+
+.bid-section {
+    padding-top: 0rem;
+}
+
+.bid-label {
+    text-align: center;
+    padding-right: 1rem; 
+    margin-top: .5rem;
+}
+
+.bid-button {
+    font-family: 'Permanent Marker', sans-serif;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

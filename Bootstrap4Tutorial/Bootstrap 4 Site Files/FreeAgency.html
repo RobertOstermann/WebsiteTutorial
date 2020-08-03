@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="FreeAgency.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto:bold" rel="stylesheet">   
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Home.html">
+                <span class="highlight-blue">M</span><span class="highlight-red">F</span><span class="highlight-blue">L</span> 
+                Free Agency</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Players.html">Players</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="FreeAgency.html">Free Agency</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-4 padding">
+			<div class="card chat-box">
+                <!-- Receive a message-->
+                <div class="card chat-message">
+                    <div class="card-body">
+                        <p class="card-text">Hello everybody! Welcome to the 2020 MFL Free Agency.</p>
+                    </div>
+                    <div class="card-footer chat-message-footer">
+                        <p class="chat-message-identifier">Tornados</p>
+                    </div>
+                </div>
+                <!-- Send a message-->
+                <div class="card chat-message-send">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        </div>
+                        <div class="card-footer chat-message-footer">
+                            <p class="chat-message-identifier">Power</p>
+                        </div>
+                </div>
+                <!-- Receive a direct message-->
+                <div class="card border-primary chat-message">
+                    <div class="card-body text-dark">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    </div>
+                    <div class="card-footer text-primary chat-message-footer">
+                        <p class="chat-message-identifier">Storm Dynasty</p>
+                    </div>
+                </div>
+                <!-- Send a direct message-->
+                <div class="card border-primary chat-message-send">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    </div>
+                    <div class="card-footer text-primary chat-message-footer">
+                        <p class="chat-message-identifier">Power</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div class="message-section">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Input Message" aria-describedby="Message">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary btn-lg message-button" type="button">Send Message</button>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<div class="col-lg-4 padding">
+			<div class="card">
+                <img class="card-img-top" src="players/Lamar Jackson.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Lamar Jackson</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">Power</h5>
+                    <p class="card-text">
+                        NFL Team: Ravens<br>
+                        Age: 23<br>
+                        Salary: $12.91<br>
+                        2019 Position Rank: 1<br>
+                        2019 Fantasy Average: 36.40
+                    </p>
+                </div>
+            </div>
+            <div class="bid-section">
+                <h4 class="bid-label">Storm Dynasty: $12.91</h4>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-danger bid-button" type="button">Opt Out</button>
+                    </div>
+                    <input type="number" class="form-control" placeholder="0.00" step="0.50" min="0" aria-describedby="Current Bid">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary btn-lg bid-button" type="button">Submit Bid</button>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<div class="col-lg-4 padding">
+			<div class="card">
+				<img class="card-img-top" src="img/team3.png">
+				<div class="card-body">
+					<h4 class="card-title">Phil Ho</h4>
+					<p class="card-text">Phil is an Internet entrepreneur with 
+						almost 20 years of experience.
+					</p>
+					<a href="#" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-12">
+				<h5>Website Created By: Robbie Ostermann</h5>
+                <hr class="light">
+                <h5>&copy; 2020 MFL Free Agency</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
